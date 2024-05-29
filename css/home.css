@@ -1,0 +1,309 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+}
+.headerText {
+  font-family: fangsong;
+  cursor: pointer;
+}
+.items {
+  font-family: fangsong;
+}
+.activeLink {
+  color: #00bcd4;
+}
+.nav-link:hover {
+  color: #00bcd4;
+}
+.nav-link {
+  font-size: 25px;
+}
+.btn-custom {
+  color: white;
+  background-color: #00bcd4;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 1.8rem;
+  font-weight: 700;
+  width: 300px;
+  letter-spacing: 2px;
+  text-align: center;
+  border: 1px solid transparent;
+  line-height: 1.8;
+}
+.navbar {
+  background-color: #ebebeb;
+  --bs-navbar-padding-y: 0;
+}
+.navbarContainer {
+  max-width: 1650px;
+}
+.row {
+  margin: 0;
+  padding: 0;
+}
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+.carousel-control-next-icon {
+  width: 3rem;
+  height: 3rem;
+}
+.carousel-control-prev-icon {
+  width: 3rem;
+  height: 3rem;
+}
+.btn-ViewDental {
+  color: #00bcd4;
+  background-color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 1.8rem;
+  font-weight: 700;
+  width: 300px;
+  letter-spacing: 2px;
+  text-align: center;
+  border: 1px solid transparent;
+  line-height: 1.8;
+  display: flex;
+  justify-content: center;
+}
+.btn-custom1 {
+  color: white;
+  background-color: #00bcd4;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 1.8rem;
+  font-weight: 700;
+  width: 300px;
+  letter-spacing: 2px;
+  text-align: center;
+  border: 1px solid transparent;
+  line-height: 1.8;
+  display: flex;
+  justify-content: center;
+}
+
+.form-control {
+  border: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4) !important;
+  background-color: transparent;
+  padding: 00;
+  color: rgba(255, 255, 255, 0.7) !important;
+  font-size: 22px;
+}
+form {
+  padding: 60px;
+}
+label {
+  font-weight: 600;
+  font-size: 23px;
+}
+::placeholder {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.form-control-select {
+  border: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4) !important;
+  background-color: transparent;
+  padding: 00;
+  color: rgba(17, 17, 17, 0.7) !important;
+  font-size: 22px;
+}
+.form-control-textarea {
+  height: inherit !important;
+  padding: 12px 0 0 15px;
+  border: 1px solid rgba(255, 255, 255, 0.4) !important;
+}
+#submit {
+  background: #fff !important;
+  border: 1px solid #fff !important;
+  color: #00bcd4 !important;
+}
+
+.offersDiv {
+  background-color: white;
+}
+
+.offericons {
+  color: #00bcd4;
+  font-size: 100px;
+}
+.offertext {
+  font-size: 20px;
+  color: rgb(143, 143, 143);
+}
+.iconsServices {
+  background-color: #00bcd4;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  position: relative;
+}
+.iconsServices span {
+  font-size: 64px;
+  line-height: 1.2;
+  position: absolute;
+  top: 14%;
+  left: 19%;
+}
+.servicesTextInner {
+  color: black;
+}
+.innerServiceDivs {
+  background-color: rgb(255, 255, 255);
+  transition: all 0.3s ease;
+}
+.iconsServices span {
+  color: white;
+}
+.textSection3 {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (min-width: 992px) {
+  .section3Divs {
+    flex: 0 0 auto;
+    width: 30.333333%;
+  }
+}
+.card-text {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: #999999;
+}
+.marginBotton {
+  margin-bottom: 7rem !important;
+}
+.cardDRPosition {
+  color: #00bcd4;
+}
+.blueStrip {
+  background-image: url("../images/bg_1cpy.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.btn-custom2 {
+  color: #00bcd4;
+  background-color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 1.8rem;
+  font-weight: 700;
+  width: 300px;
+  letter-spacing: 2px;
+  text-align: center;
+  border: 1px solid transparent;
+  line-height: 1.8;
+  display: flex;
+  justify-content: center;
+}
+.ManagersName {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.textOnImageStories {
+  width: 100%;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.216);
+  color: #404040;
+  display: none;
+}
+.storiesImage:hover .textOnImageStories {
+  display: block;
+}
+.titleBlogs:hover {
+  color: #00bcd4;
+}
+
+li div h4 {
+  color: #999999;
+  cursor: pointer;
+}
+.pricingPlans:hover {
+  background-color: white;
+}
+.pricingPlans {
+  transition: all 0.3s ease;
+}
+.footer {
+  background-image: url("../images/bg_2ccpy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.colorOverImage {
+  background-color: #00bbd4c0;
+}
+.textinfooter {
+  color: white;
+}
+
+ul li {
+  display: flex;
+  justify-content: flex-start;
+}
+.miniBlogFooter:hover {
+  cursor: pointer;
+  color: #0d6efd;
+}
+.lastFooter {
+  background-color: #00bcd4;
+}
+.offersDiv {
+  display: flex;
+}
+
+@media screen and (min-width: 1400px) {
+  .blogsContainer {
+    max-width: 2132px;
+  }
+  .footerContainer {
+    max-width: 2033px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .offersDiv {
+    display: block;
+  }
+}
+
+.imageQualifiedDoc {
+  background-image: url("../images/bg_2ccpy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.imageQualifiedDocInner {
+  background-color: rgba(0, 0, 0, 0.511);
+  display: flex;
+  align-items: center;
+  height: 40vh;
+}
+.imageQualifiedAnkerTag {
+  color: white;
+  text-decoration: none;
+  font-size: 35px;
+}
+.imageQualifiedAnkerTag:hover {
+  color: #00bcd4;
+}
+.InnerImageQualified2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
